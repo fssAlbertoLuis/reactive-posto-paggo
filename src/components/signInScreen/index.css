@@ -1,0 +1,33 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-div {
+    margin: auto;
+    padding: 24px;
+}
+
+.sign-in-form-div {
+    padding: 8px;
+}
+
+form {
+    width: 100%;
+}
+
+.btn-icon {
+    padding-left: 16px;
+}
+
+.sign-in-input {
+    margin: 32px;
+}
+
+@media (min-width: 960px) {
+    .sign-in-div {
+        width: 75%;
+    }
+}
